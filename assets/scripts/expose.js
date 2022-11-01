@@ -54,7 +54,7 @@ function init() {
 
 
 
-  vol.addEventListener('click', function() {
+  vol.addEventListener('input', function() {
     audio.volume = (vol.value)/100
     if (vol.value == 0) {
       vol_image.src = "assets/icons/volume-level-0.svg"
